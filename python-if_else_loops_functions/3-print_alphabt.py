@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+output = ""
 for ch in "abcdefghijklmnopqrstuvwxyz":
     if ch not in "qe":
-        print(f"{ch}", end="")
+        output += f"{ch}"
+print(output, end="")
