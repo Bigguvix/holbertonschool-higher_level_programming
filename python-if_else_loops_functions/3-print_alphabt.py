@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-output = ""
-for ch in "abcdefghijklmnopqrstuvwxyz":
-    if ch not in "qe":
-        output += f"{ch}"
-print(output, end="")
+for a in range(97, 123):
+    if a != 101 and a != 113:
+        print("{:c}".format(a), end="")
