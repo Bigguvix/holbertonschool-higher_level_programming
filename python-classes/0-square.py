@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+class Square:
+    """Empty class
 
-class Saquare:
+    Attributes:
+        empty
+    """
     pass
