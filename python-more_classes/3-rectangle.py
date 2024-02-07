@@ -53,6 +53,6 @@ class Rectangle:
             if i != self.__height - 1:
                 rectangle += '\n'
         return rectangle
-    
+
     def __str__(self):
         return self.draw_rectangle()
