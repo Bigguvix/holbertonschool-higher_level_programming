@@ -93,4 +93,4 @@ class Rectangle:
             width = height = size
 
         """
-        return cls(size, size)
+        return (Rectangle(size, size))
