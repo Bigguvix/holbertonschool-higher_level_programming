@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # 7-add_item.py
-"""Adds all arguments to a Python list,
-and then save them to a file.
-"""
+"""Adds all arguments to a Python list,and then save them to a file."""
+
+
 
 
 import sys
