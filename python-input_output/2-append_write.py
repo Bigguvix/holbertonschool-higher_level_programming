@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+#  1-write_file.py
+"""appends to a text file"""
+
+
+def append(filename="", text=""):
+    """Function that appends to a text file"""
+
+    with open(filename, "a", encoding="utf-8") as f:
+        return f.write(text)
