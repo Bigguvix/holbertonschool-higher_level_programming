@@ -5,7 +5,7 @@
 
 def number_of_lines(filename=""):
     """Counts lines in filename"""
-    
+
     count = 0
 
     with open(filename) as f:
